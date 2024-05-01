@@ -1,0 +1,45 @@
+
+.nav-ul {
+    list-style-type: none;
+}
+
+.nav-li {
+    float: left
+}
+
+/* I used transition all in, it apply to all elements <a> inside <li> elements  */
+.nav-li a {
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+    margin: 3px;
+    padding: 8px 16px;
+    transition: all 0.5s ease;
+}
+
+/* I can use a class or a cascading property, the result is the same */
+/*
+.a-transition:hover {
+    color: gainsboro;
+    background-color: rgb(51,51,51);
+    border-radius: 8px;
+}
+*/
+
+/* All the behaviors of the hover properties */
+.nav-ul .nav-li a:hover {
+    color: gainsboro;
+    background-color: #6A5ACD;
+    border-radius: 8px;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
